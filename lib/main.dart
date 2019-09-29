@@ -44,10 +44,13 @@ class _HomeState extends State<Home> {
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+             Icon(Icons.accessibility_new,
+                    size: 100.0, color: Colors.yellowAccent[300]),
             Text("Pessoas: $_people",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.greenAccent[100],
                   fontWeight: FontWeight.bold,
+                  decoration: TextDecoration.none,
                 )),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -80,9 +83,10 @@ class _HomeState extends State<Home> {
             ),
             Text(_infoText,
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.yellowAccent,
                   fontStyle: FontStyle.italic,
-                  fontSize: 30.0,
+                  fontSize: 35.0,
+                  decoration: TextDecoration.none,
                 ))
           ],
         )
