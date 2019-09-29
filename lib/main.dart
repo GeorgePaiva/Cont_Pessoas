@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
              Icon(Icons.accessibility_new,
-                    size: 100.0, color: Colors.yellowAccent[300]),
+                    size: 100.0, color: Colors.yellowAccent),
             Text("Pessoas: $_people",
                 style: TextStyle(
                   color: Colors.greenAccent[100],
