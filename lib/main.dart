@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
       //Widget MaterialApp do tipo Material Designer
-      title: 'Contator de Pessoas', //Parametro title
+      title: 'Contator de Pessoas',
+      debugShowCheckedModeBanner: false, //Parametro title
       home: Home()));
 }
 
